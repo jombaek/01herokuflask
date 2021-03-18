@@ -1,5 +1,5 @@
 #Mestnikova Evgeniia
-FROM python
+FROM python:alpine
 WORKDIR /app
 COPY myproxy.py .
 COPY requirements.txt .
